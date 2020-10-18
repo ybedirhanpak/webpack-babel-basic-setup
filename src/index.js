@@ -1,3 +1,4 @@
+import './style.css';
 import * as Heading from './components/heading.js';
 
 const root = document.getElementById("root");
