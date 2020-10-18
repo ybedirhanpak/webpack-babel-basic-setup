@@ -1,4 +1,4 @@
-import './paragraph.css';
+import './paragraph.scss';
 
 /**
  * 
