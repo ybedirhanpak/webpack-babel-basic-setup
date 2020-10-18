@@ -1,6 +1,7 @@
+## Webpack & Babel Basic Setup
 This project shows a simple development and production setup for a vanilla JS project with Webpack and Babel.
 
-## Scripts
+## Scripts
 
 ```
 npm start       # Starts development server
