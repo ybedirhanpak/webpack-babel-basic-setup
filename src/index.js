@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import * as Heading from './components/heading.js';
 import * as Paragraph from './components/paragraph';
 
