@@ -1,0 +1,8 @@
+.paragraph {
+    color: turquoise;
+    font-size: 2rem;
+}
+
+.paragraph:hover {
+    color: gold;
+}
