@@ -1,10 +1,10 @@
 .big-heading {
     font-size: 2rem;
     color: blue;
-}
 
-.big-heading:hover {
-    color: red;
+    &:hover {
+        color: red;
+    }
 }
 
 .async {
