@@ -45,8 +45,7 @@ module.exports = {
         ]
     },
     plugins: [new HTMLWebpackPlugin({
-        title: "Webpack Babel",
-        template: "./templates/index.html"
+        template: "./src/index.html"
     })],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
