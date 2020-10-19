@@ -1,3 +1,7 @@
+Modules
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 // Styles
 import './style.scss';
 
@@ -6,8 +10,8 @@ import logo from './assets/infinite_workout.png';
 
 // Components
 import * as Heading from './components/heading.js';
-import * as Paragraph from './components/paragraph';
-import * as Image from './components/image';
+import * as Paragraph from './components/paragraph.js';
+import * as Image from './components/image.js';
 
 const root = document.getElementById("root");
 
@@ -20,3 +24,8 @@ Heading.asyncHeading("Async Heading").then((asyncHeading) => {
 root.appendChild(Paragraph.paragraph("Paragraph"));
 
 root.appendChild(Image.image(logo));
+
+ReactDOM.render(
+    <div>Hello React</div>,
+    document.getElementById("react-root")
+);
