@@ -47,6 +47,12 @@ module.exports = {
     plugins: [new HTMLWebpackPlugin({
         template: "./src/index.html"
     })],
+    resolve: {
+        alias: {
+            images: path.resolve(__dirname, 'src/assets/img/')
+        },
+        extensions: ['.js', '.jsx']
+    },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
